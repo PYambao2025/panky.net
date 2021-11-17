@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="author" content="Patricia Yambao">
+  <meta name="section" content="9 - Balingkilat">
+  <title>Q1Proj_Balingkilat_Yambao-Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1> Panky pictures! </h1>
+  <div class="inner-container">
+    <div class="gallery1">
+    </div>
+    <div class="gallery2">
+    </div>
+    <div class="gallery3">
+    </div>
+    <div class="gallery4">
+    </div>
+  </div>
+  <div class="nav">
+    <p class="nav-text"> navigate through the site! </p>
+    <hr>
+    <div class="other-pages">
+      <a id="Home" href="../Index.html">Panky Home</a><br><br>
+      <a id="Statistics" href="content-pages/Statistics.html">Panky Numbers</a><br><br>
+      <a id="AboutPanko" href="content-pages/AboutPanko.html">About Panko</a><br><br>
+      <a id="AboutAuthor" href="content-pages/AboutAuthor.html">About the Author</a><br><br>
+    </div>
+  </div>
+</body>
+
+<style>
+  @font-face{
+    src: url('fonts/Rigeko.OTF');
+    font-family: Rigeko;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-Black.ttf');
+    font-family: WorkSans-Black;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-ExtraBold.ttf');
+    font-family: WorkSans-ExtraBold;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-Bold.ttf');
+    font-family: WorkSans-Bold;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-SemiBold.ttf');
+    font-family: WorkSans-SemiBold;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-Medium.ttf');
+    font-family: WorkSans-Medium;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-Regular.ttf');
+    font-family: WorkSans-Regular;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-Light.ttf');
+    font-family: WorkSans-Light;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-ExtraLight.ttf');
+    font-family: WorkSans-ExtraLight;
+  }
+
+  @font-face{
+    src: url('../fonts/WorkSans-Thin.ttf');
+    font-family: WorkSans-Thin;
+  }
+
+  body {
+    background-image: url('../images/index-background.jpg');
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h1 {
+      font-family: Rigeko;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 3px solid #15042b;
+    }
+
+  .inner-container {
+    display:grid;
+    height: 100vh;
+    margin-left: 0.8rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45fr 20fr 1fr 1fr;
+    grid-template-areas:
+      "gallery1 gallery2 gallery3 gallery4";
+    grid-gap: 0.8rem;
+  }
+
+  .gallery1 {
+    background-image: url('../images/gallery1-pank.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px #15042b;
+  }
+
+  .gallery2 {
+    background-image: url('../images/gallery2-pank.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 0px 2px #15042b;
+  }
+
+  .gallery3 {
+    background-image: url('../images/gallery3-pank.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 0px 2px #15042b;
+  }
+
+  .gallery4 {
+    background-image: url('../images/gallery4-pank.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 0px 2px #15042b;
+  }
+
+  .gallery5 {
+    background-image: url('../images/gallery5-pank.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 0px 2px #15042b;
+  }
+
+p.nav-text {
+  font-family: Rigeko;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.other-pages a:link, .other-pages a:visited {
+  font-family: WorkSans-Regular;
+  color: #15042b;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px #15042b;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.other-pages {
+  text-align: center;
+}
+
+hr {
+  background-color: #15042b;
+  border: 1.3px solid #15042b;
+  margin-bottom: 20px;
+}
+
+</style>
+
+</html>
